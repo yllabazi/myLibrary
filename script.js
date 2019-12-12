@@ -84,8 +84,8 @@ const submitBtn = document.querySelector('.submit');
 const formClose = document.querySelector('.close');
 
 
-let b1 = new Book("Muslimani Productiv", "Muhamed Faris", 2019, 259, true);
-let b2 = new Book("Power of Habit", "Charles Duhigg", 2012, 330, false);
+let b1 = new Book("Muslimani Produktiv", "Muhamed Faris", 2019, 259, true);
+let b2 = new Book("Power of Habit", "Charles Duhigg", 2012, 330, true);
 
 addBtn.addEventListener('click', () => {
     bookForm.setAttribute('style', 'visibility: visible;');
