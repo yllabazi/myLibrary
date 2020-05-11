@@ -59,7 +59,7 @@ function deleteAllRows(){
     }
 }
 
-function deleteRoww() {
+function deleteRow() {
     for (let i = 1; i < table.rows.length; i++) {
         table.rows[i].cells[5].onclick = function() {
             index = this.parentElement.rowIndex;
@@ -103,5 +103,5 @@ formClose.addEventListener('click', (e) => {
 addBooksToLibrary(b1);
 addBooksToLibrary(b2);
 render();
-deleteRoww();
+deleteRow();
 changeRead();
